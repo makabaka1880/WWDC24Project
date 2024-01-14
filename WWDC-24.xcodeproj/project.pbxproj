@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77BB92A22B53FBE0005D27CC /* ApproxVisualization.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 77BB92A12B53FBE0005D27CC /* ApproxVisualization.scnassets */; };
+		77BB92A52B53FDEA005D27CC /* ApproxVisualizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB92A42B53FDEA005D27CC /* ApproxVisualizationView.swift */; };
 		77CC5D132B2DC6FC007260B4 /* WWDC_24App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CC5D122B2DC6FC007260B4 /* WWDC_24App.swift */; };
 		77CC5D152B2DC6FC007260B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CC5D142B2DC6FC007260B4 /* ContentView.swift */; };
 		77CC5D172B2DC6FD007260B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77CC5D162B2DC6FD007260B4 /* Assets.xcassets */; };
@@ -14,9 +16,15 @@
 		77CC5D212B2DC70C007260B4 /* CalculationCompetitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CC5D202B2DC70C007260B4 /* CalculationCompetitionView.swift */; };
 		77CC5D242B2DD160007260B4 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CC5D232B2DD160007260B4 /* Helpers.swift */; };
 		77CC5D262B2DD698007260B4 /* DrawBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CC5D252B2DD698007260B4 /* DrawBoard.swift */; };
+		77CC5D282B3705C8007260B4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CC5D272B3705C8007260B4 /* Models.swift */; };
+		77FF9DD02B4EBCDD00328738 /* Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 77FF9DCF2B4EBCDD00328738 /* Questions.json */; };
+		77FF9DD22B50152A00328738 /* FuncApprox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FF9DD12B50152A00328738 /* FuncApprox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		770230B02B501AA60028823C /* ApproxData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ApproxData.json; sourceTree = "<group>"; };
+		77BB92A12B53FBE0005D27CC /* ApproxVisualization.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = ApproxVisualization.scnassets; sourceTree = "<group>"; };
+		77BB92A42B53FDEA005D27CC /* ApproxVisualizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApproxVisualizationView.swift; sourceTree = "<group>"; };
 		77CC5D0F2B2DC6FC007260B4 /* WWDC-24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WWDC-24.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77CC5D122B2DC6FC007260B4 /* WWDC_24App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC_24App.swift; sourceTree = "<group>"; };
 		77CC5D142B2DC6FC007260B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,6 +33,9 @@
 		77CC5D202B2DC70C007260B4 /* CalculationCompetitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationCompetitionView.swift; sourceTree = "<group>"; };
 		77CC5D232B2DD160007260B4 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		77CC5D252B2DD698007260B4 /* DrawBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawBoard.swift; sourceTree = "<group>"; };
+		77CC5D272B3705C8007260B4 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		77FF9DCF2B4EBCDD00328738 /* Questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Questions.json; sourceTree = "<group>"; };
+		77FF9DD12B50152A00328738 /* FuncApprox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncApprox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77BB92A32B53FDD0005D27CC /* ApproxVisualization */ = {
+			isa = PBXGroup;
+			children = (
+				77BB92A12B53FBE0005D27CC /* ApproxVisualization.scnassets */,
+				77BB92A42B53FDEA005D27CC /* ApproxVisualizationView.swift */,
+			);
+			path = ApproxVisualization;
+			sourceTree = "<group>";
+		};
 		77CC5D062B2DC6FC007260B4 = {
 			isa = PBXGroup;
 			children = (
@@ -57,8 +77,11 @@
 		77CC5D112B2DC6FC007260B4 /* WWDC-24 */ = {
 			isa = PBXGroup;
 			children = (
+				77FF9DCF2B4EBCDD00328738 /* Questions.json */,
 				77CC5D122B2DC6FC007260B4 /* WWDC_24App.swift */,
+				77CC5D272B3705C8007260B4 /* Models.swift */,
 				77CC5D142B2DC6FC007260B4 /* ContentView.swift */,
+				77BB92A32B53FDD0005D27CC /* ApproxVisualization */,
 				77CC5D222B2DC719007260B4 /* CalculationCompetition */,
 				77CC5D162B2DC6FD007260B4 /* Assets.xcassets */,
 				77CC5D182B2DC6FD007260B4 /* Preview Content */,
@@ -79,6 +102,8 @@
 			children = (
 				77CC5D252B2DD698007260B4 /* DrawBoard.swift */,
 				77CC5D202B2DC70C007260B4 /* CalculationCompetitionView.swift */,
+				77FF9DD12B50152A00328738 /* FuncApprox.swift */,
+				770230B02B501AA60028823C /* ApproxData.json */,
 				77CC5D232B2DD160007260B4 /* Helpers.swift */,
 			);
 			path = CalculationCompetition;
@@ -143,6 +168,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				77CC5D1A2B2DC6FD007260B4 /* Preview Assets.xcassets in Resources */,
+				77FF9DD02B4EBCDD00328738 /* Questions.json in Resources */,
+				77BB92A22B53FBE0005D27CC /* ApproxVisualization.scnassets in Resources */,
 				77CC5D172B2DC6FD007260B4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,11 +181,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77FF9DD22B50152A00328738 /* FuncApprox.swift in Sources */,
 				77CC5D152B2DC6FC007260B4 /* ContentView.swift in Sources */,
 				77CC5D212B2DC70C007260B4 /* CalculationCompetitionView.swift in Sources */,
 				77CC5D262B2DD698007260B4 /* DrawBoard.swift in Sources */,
+				77CC5D282B3705C8007260B4 /* Models.swift in Sources */,
 				77CC5D132B2DC6FC007260B4 /* WWDC_24App.swift in Sources */,
 				77CC5D242B2DD160007260B4 /* Helpers.swift in Sources */,
+				77BB92A52B53FDEA005D27CC /* ApproxVisualizationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

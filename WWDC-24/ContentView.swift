@@ -6,14 +6,18 @@
 //
 
 import SwiftUI
+import SpriteKit
 
 struct ContentView: View {
+    var scene: SKScene {
+        let scene = GameScene()
+        scene.size = CGSize(width: 1080, height: 800)
+        return scene
+    }
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+//            CalculationCompetitionView()
+            SpriteView(scene: self.scene)
         }
         .padding()
     }
